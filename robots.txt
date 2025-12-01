@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://imammakbul166.github.io/VerdaNusadaya/sitemap.xml

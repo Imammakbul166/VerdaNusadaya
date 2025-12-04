@@ -24,6 +24,7 @@ static-website/
 ## 🌐 Halaman Website
 
 ### 1. Halaman Beranda (`index.html`)
+
 - **Hero Banner**: Gambar besar dengan slogan dan tombol CTA
 - **Tentang Perusahaan**: Ringkasan profil dengan 3 fitur utama
 - **Produk Unggulan**: 6 produk dengan gambar, nama, deskripsi, dan harga
@@ -32,6 +33,7 @@ static-website/
 - **Call to Action**: Tombol besar untuk menghubungi kami
 
 ### 2. Halaman Tentang Kami (`about.html`)
+
 - **Hero Section**: Judul dan deskripsi singkat
 - **Profil Perusahaan**: Informasi lengkap tentang perusahaan
 - **Visi & Misi**: Tujuan dan misi perusahaan
@@ -41,9 +43,10 @@ static-website/
 - **Sertifikat**: 6 sertifikat dan penghargaan
 
 ### 3. Halaman Produk (`products.html`)
+
 - **Hero Section**: Judul dan deskripsi halaman produk
 - **Produk Unggulan**: 3 produk unggulan dengan detail lengkap
-- **Filter Produk**: 
+- **Filter Produk**:
   - Search bar untuk mencari produk
   - Filter kategori (Kopi, Karet, Kelapa Sawit, Lainnya)
   - Toggle view (Grid/List)
@@ -57,6 +60,7 @@ static-website/
 - **Download Katalog**: Tombol untuk download katalog PDF
 
 ### 4. Halaman Kontak (`contact.html`)
+
 - **Hero Section**: Judul dan deskripsi halaman kontak
 - **Info Kontak**: 4 kartu informasi (alamat, telepon, email, jam operasional)
 - **Form Kontak**: Form lengkap dengan:
@@ -75,14 +79,16 @@ static-website/
 ## 🎨 Fitur Desain
 
 ### Responsive Design
+
 - **Mobile First**: Desain dioptimalkan untuk perangkat mobile
-- **Breakpoints**: 
+- **Breakpoints**:
   - Mobile: < 768px
   - Tablet: 768px - 1024px
   - Desktop: > 1024px
 - **Navigation**: Menu responsif dengan hamburger menu untuk mobile
 
 ### Animasi & Interaksi
+
 - **Hover Effects**: Efek hover pada cards dan tombol
 - **Smooth Scrolling**: Scroll halus untuk anchor links
 - **Loading States**: Spinner untuk proses loading
@@ -90,6 +96,7 @@ static-website/
 - **Image Lazy Loading**: Loading gambar secara bertahap
 
 ### Warna & Branding
+
 - **Primary Color**: Green (#16a34a)
 - **Secondary Color**: Gray shades
 - **Accent Color**: Yellow untuk badges
@@ -98,12 +105,14 @@ static-website/
 ## 🔧 Teknologi
 
 ### HTML5
+
 - Semantic HTML
 - Meta tags untuk SEO
 - Open Graph tags
 - Structured Data (JSON-LD)
 
 ### CSS3
+
 - Flexbox & Grid Layout
 - Custom Properties
 - Media Queries
@@ -111,6 +120,7 @@ static-website/
 - Custom scrollbar
 
 ### JavaScript (Vanilla)
+
 - ES6+ Features
 - Event Listeners
 - DOM Manipulation
@@ -120,6 +130,7 @@ static-website/
 ## 🚀 Cara Menggunakan
 
 ### 1. Upload ke Hosting
+
 Upload semua file dan folder ke hosting Anda:
 
 ```bash
@@ -137,6 +148,7 @@ static-website/
 ```
 
 ### 2. Konfigurasi
+
 Edit file-file berikut sesuai kebutuhan:
 
 - **Informasi Perusahaan**: Edit di semua halaman HTML
@@ -145,6 +157,7 @@ Edit file-file berikut sesuai kebutuhan:
 - **Gambar**: Ganti placeholder images di folder `images/`
 
 ### 3. SEO Optimization
+
 - **Meta Tags**: Sudah dioptimalkan untuk setiap halaman
 - **robots.txt**: Mengizinkan search engine mengindex
 - **sitemap.xml**: Peta situs untuk search engine
@@ -153,6 +166,7 @@ Edit file-file berikut sesuai kebutuhan:
 ## 📱 Browser Support
 
 Website ini mendukung:
+
 - ✅ Chrome (versi terbaru)
 - ✅ Firefox (versi terbaru)
 - ✅ Safari (versi terbaru)
@@ -163,18 +177,21 @@ Website ini mendukung:
 ## 🎯 Fitur Unggulan
 
 ### Performance
+
 - **Optimized Images**: Gambar dikompres dan dioptimalkan
 - **Minimal CSS**: CSS yang efisien dan terorganisir
 - **Lazy Loading**: Loading gambar hanya saat diperlukan
 - **No Dependencies**: Tidak memerlukan library eksternal
 
 ### User Experience
+
 - **Fast Loading**: Waktu loading yang cepat
 - **Intuitive Navigation**: Navigasi yang mudah dipahami
 - **Mobile Friendly**: Tampilan optimal di mobile
 - **Accessibility**: Semantic HTML dan ARIA labels
 
 ### Business Features
+
 - **Contact Form**: Form kontak yang fungsional
 - **Product Catalog**: Katalog produk lengkap
 - **Search & Filter**: Pencarian dan filter produk
@@ -183,6 +200,7 @@ Website ini mendukung:
 ## 🔄 Customization
 
 ### Mengubah Warna
+
 Edit file `css/style.css` dan ubah CSS variables:
 
 ```css
@@ -194,6 +212,7 @@ Edit file `css/style.css` dan ubah CSS variables:
 ```
 
 ### Menambah Produk
+
 Edit file `js/main.js` dan tambahkan data produk:
 
 ```javascript
@@ -206,13 +225,15 @@ const products = [
     image: "path/to/image.jpg",
     price: "Rp harga",
     rating: 4.5,
-    specs: ["spec1", "spec2"]
-  }
+    specs: ["spec1", "spec2"],
+  },
 ];
 ```
 
 ### Mengubah Informasi Perusahaan
+
 Edit HTML di setiap halaman untuk mengubah:
+
 - Nama perusahaan
 - Alamat
 - Telepon
@@ -222,6 +243,7 @@ Edit HTML di setiap halaman untuk mengubah:
 ## 📞 Dukungan
 
 Untuk bantuan atau pertanyaan:
+
 - 📧 Email: info@verdanusadaya.com
 - 📞 Telepon: +62 812-3456-7890
 - 🌐 Website: https://imammakbul166.github.io/VerdaNusadaya/

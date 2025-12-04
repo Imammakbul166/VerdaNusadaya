@@ -244,7 +244,7 @@
           </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6">
           <div class="card text-center p-6 hover:shadow-lg transition-all">
             <div class="feature-icon">
               <svg
@@ -318,8 +318,6 @@
     </section>
 
     <!-- Produk Unggulan -->
-
-    <!-- coffe -->
     <section class="section">
       <div class="container">
         <div class="section-title">
@@ -331,171 +329,189 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div
+        class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8"
+      >
+        <!-- Coffee -->
         <div
-          class="card group hover:shadow-xl transition-all duration-300 overflow-hidden"
+          class="product-card relative border p-4 rounded-lg shadow hover:shadow-lg transition"
         >
-          <div class="card-image-container">
-            <img
-              src="img/coffee.png"
-              alt="Kopi Arabika Premium"
-              class="card-image"
-            />
-            <span class="badge badge-primary absolute top-4 left-4">Kopi</span>
-          </div>
-          <div class="card-content">
-            <h3 class="text-xl font-semibold mb-2">Raw Coffee Beans</h3>
-            <p class="text-gray-600 mb-4 line-clamp-2">
-              Selected Arabica coffee beans with a distinctive flavor and an
-              enticing aroma that delights the senses.
-            </p>
-
-            <div class="flex justify-between items-center">
-              <!-- <span class="text-lg font-bold text-green-600"
-                  >Rp 150.000/kg</span
-                > -->
-              <a href="products.html" class="btn btn-outline btn-sm">Detail</a>
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="card group hover:shadow-xl transition-all duration-300 overflow-hidden"
-        >
-          <div class="card-image-container">
-            <img src="img/cloves.png" alt="Karet SIR-20" class="card-image" />
-            <span class="badge badge-primary absolute top-4 left-4">Karet</span>
-          </div>
-          <div class="card-content">
-            <h3 class="text-xl font-semibold mb-2">Cloves</h3>
-            <p class="text-gray-600 mb-4 line-clamp-2">
-              Premium dried cloves with a strong aroma and export-grade quality.
-            </p>
-
-            <div class="flex justify-between items-center">
-              <!-- <span class="text-lg font-bold text-green-600"
-                  >Rp 25.000/kg</span
-                > -->
-              <a href="products.html" class="btn btn-outline btn-sm">Detail</a>
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="card group hover:shadow-xl transition-all duration-300 overflow-hidden"
-        >
-          <div class="card-image-container">
-            <img
-              src="img/cashew.png"
-              alt="CPO Kelapa Sawit"
-              class="card-image"
-            />
-            <span class="badge badge-primary absolute top-4 left-4"
-              >Kelapa Sawit</span
-            >
-          </div>
-          <div class="card-content">
-            <h3 class="text-xl font-semibold mb-2">Cashew</h3>
-            <p class="text-gray-600 mb-4 line-clamp-2">
-              Selected cashew nuts that are crisp, fresh, and perfect for
-              industrial use.
-            </p>
-
-            <div class="flex justify-between items-center">
-              <!-- <span class="text-lg font-bold text-green-600"
-                  >Rp 12.000/kg</span
-                > -->
-              <a href="products.html" class="btn btn-outline btn-sm">Detail</a>
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="card group hover:shadow-xl transition-all duration-300 overflow-hidden"
-        >
-          <div class="card-image-container">
-            <img src="img/coconut2.png" alt="Kopi Robusta" class="card-image" />
-            <span class="badge badge-primary absolute top-4 left-4">Kopi</span>
-          </div>
-          <div class="card-content">
-            <h3 class="text-xl font-semibold mb-2">coconut</h3>
-            <p class="text-gray-600 mb-4 line-clamp-2">
-              Kelapa segar dan produk turunan kelapa berkualitas tinggi.
-            </p>
-            <div class="flex justify-between items-center">
-              <!-- <span class="text-lg font-bold text-green-600"
-                  >Rp 120.000/kg</span
-                > -->
-              <a href="products.html" class="btn btn-outline btn-sm">Detail</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- <div
-            class="card group hover:shadow-xl transition-all duration-300 overflow-hidden"
+          <img
+            src="img/coffee.png"
+            alt="Raw Coffee Beans"
+            class="w-full h-48 object-cover rounded-lg mb-4"
+          />
+          <h3 class="text-xl font-semibold mb-2">Kopi Arabika Premium</h3>
+          <p class="text-gray-600 line-clamp-2 mb-4">
+            Selected Arabica coffee beans with a distinctive flavor and an
+            enticing aroma...
+          </p>
+          <button
+            onclick="openModal('coffeeModal')"
+            class="text-white bg-green-600 px-4 py-2 rounded hover:bg-green-700 transition"
           >
-            <div class="card-image-container">
-              <img
-                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Karet RSS-1"
-                class="card-image"
-              />
-              <span class="badge badge-primary absolute top-4 left-4"
-                >Karet</span
-              >
-            </div> -->
-        <!-- <div class="card-content">
-              <h3 class="text-xl font-semibold mb-2">Karet RSS-1</h3>
-              <p class="text-gray-600 mb-4 line-clamp-2">
-                Karet berkualitas untuk berbagai aplikasi industri.
-              </p>
-              <div class="flex justify-between items-center">
-                <span class="text-lg font-bold text-green-600"
-                  >Rp 22.000/kg</span
-                >
-                <a href="products.html" class="btn btn-outline btn-sm"
-                  >Detail</a
-                >
-              </div>
-            </div>
-          </div> -->
+            More Info
+          </button>
+        </div>
 
-        <!-- <div
-            class="card group hover:shadow-xl transition-all duration-300 overflow-hidden"
+        <!-- Cloves -->
+        <div
+          class="product-card relative border p-4 rounded-lg shadow hover:shadow-lg transition"
+        >
+          <img
+            src="img/cloves.png"
+            alt="Cloves"
+            class="w-full h-48 object-cover rounded-lg mb-4"
+          />
+          <h3 class="text-xl font-semibold mb-2">Cloves</h3>
+          <p class="text-gray-600 line-clamp-2 mb-4">
+            Premium dried cloves with a strong aroma and export-grade quality...
+          </p>
+          <button
+            onclick="openModal('clovesModal')"
+            class="text-white bg-green-600 px-4 py-2 rounded hover:bg-green-700 transition"
           >
-            <div class="card-image-container">
-              <img
-                src="https://images.unsplash.com/photo-1592982537442-025781f5f7eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Minyak Goreng Sawit"
-                class="card-image"
-              />
-              <span class="badge badge-primary absolute top-4 left-4"
-                >Kelapa Sawit</span
-              >
-            </div>
-            <div class="card-content">
-              <h3 class="text-xl font-semibold mb-2">Minyak Goreng Sawit</h3>
-              <p class="text-gray-600 mb-4 line-clamp-2">
-                Minyak goreng berkualitas tinggi untuk kebutuhan rumah tangga
-                dan industri.
-              </p>
-              <div class="flex justify-between items-center">
-                <span class="text-lg font-bold text-green-600"
-                  >Rp 15.000/liter</span
-                >
-                <a href="products.html" class="btn btn-outline btn-sm"
-                  >Detail</a
-                >
-              </div>
-            </div>
-          </div>
-        </div> -->
+            More Info
+          </button>
+        </div>
 
-        <!-- <div class="text-center mt-12">
-          <a href="products.html" class="btn btn-primary btn-lg"
-            >Lihat Semua Produk</a
+        <!-- Cashew -->
+        <div
+          class="product-card relative border p-4 rounded-lg shadow hover:shadow-lg transition"
+        >
+          <img
+            src="img/cashew.png"
+            alt="Cashew"
+            class="w-full h-48 object-cover rounded-lg mb-4"
+          />
+          <h3 class="text-xl font-semibold mb-2">Cashew</h3>
+          <p class="text-gray-600 line-clamp-2 mb-4">
+            Selected cashew nuts that are crisp, fresh, and perfect for
+            industrial use...
+          </p>
+          <button
+            onclick="openModal('cashewModal')"
+            class="text-white bg-green-600 px-4 py-2 rounded hover:bg-green-700 transition"
           >
-        </div> -->
+            More Info
+          </button>
+        </div>
+
+        <!-- Virgin Coconut Oil -->
+        <div
+          class="product-card relative border p-4 rounded-lg shadow hover:shadow-lg transition"
+        >
+          <img
+            src="img/coconut2.png"
+            alt="Virgin Coconut Oil"
+            class="w-full h-48 object-cover rounded-lg mb-4"
+          />
+          <h3 class="text-xl font-semibold mb-2">Virgin Coconut Oil</h3>
+          <p class="text-gray-600 line-clamp-2 mb-4">
+            Fresh coconuts and high-quality derivative products for versatile
+            uses...
+          </p>
+          <button
+            onclick="openModal('vcoModal')"
+            class="text-white bg-green-600 px-4 py-2 rounded hover:bg-green-700 transition"
+          >
+            More Info
+          </button>
+        </div>
+      </div>
+
+      <!-- Modals -->
+      <!-- Coffee Modal -->
+      <div
+        id="coffeeModal"
+        class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50"
+      >
+        <div class="bg-white p-6 rounded-lg max-w-lg w-full relative">
+          <button
+            onclick="closeModal('coffeeModal')"
+            class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 text-2xl"
+          >
+            &times;
+          </button>
+          <h3 class="text-2xl font-bold mb-4">Raw Coffee Beans</h3>
+          <p class="text-gray-700 mb-2">
+            Our premium Arabica coffee beans are carefully selected from the
+            finest plantations in Indonesia. They are hand-picked and processed
+            to maintain a distinctive flavor profile and rich aroma.
+          </p>
+          <p class="text-gray-700">
+            Ideal for both industrial use and specialty coffee markets.
+          </p>
+        </div>
+      </div>
+
+      <!-- Cloves Modal -->
+      <div
+        id="clovesModal"
+        class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50"
+      >
+        <div class="bg-white p-6 rounded-lg max-w-lg w-full relative">
+          <button
+            onclick="closeModal('clovesModal')"
+            class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 text-2xl"
+          >
+            &times;
+          </button>
+          <h3 class="text-2xl font-bold mb-4">Cloves</h3>
+          <p class="text-gray-700 mb-2">
+            Our premium dried cloves are carefully selected and processed to
+            preserve their rich aroma and quality.
+          </p>
+          <p class="text-gray-700">
+            Perfect for culinary, industrial, and export purposes.
+          </p>
+        </div>
+      </div>
+
+      <!-- Cashew Modal -->
+      <div
+        id="cashewModal"
+        class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50"
+      >
+        <div class="bg-white p-6 rounded-lg max-w-lg w-full relative">
+          <button
+            onclick="closeModal('cashewModal')"
+            class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 text-2xl"
+          >
+            &times;
+          </button>
+          <h3 class="text-2xl font-bold mb-4">Cashew</h3>
+          <p class="text-gray-700 mb-2">
+            Our premium cashew nuts are carefully harvested to ensure optimal
+            freshness and crunchiness.
+          </p>
+          <p class="text-gray-700">
+            Suitable for snacks, culinary uses, and industrial purposes.
+          </p>
+        </div>
+      </div>
+
+      <!-- Virgin Coconut Oil Modal -->
+      <div
+        id="vcoModal"
+        class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50"
+      >
+        <div class="bg-white p-6 rounded-lg max-w-lg w-full relative">
+          <button
+            onclick="closeModal('vcoModal')"
+            class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 text-2xl"
+          >
+            &times;
+          </button>
+          <h3 class="text-2xl font-bold mb-4">Virgin Coconut Oil</h3>
+          <p class="text-gray-700 mb-2">
+            Our virgin coconut oil is extracted from fresh coconuts using
+            natural processes to retain nutrients and aroma.
+          </p>
+          <p class="text-gray-700">
+            Perfect for culinary, cosmetic, and health-related applications.
+          </p>
+        </div>
       </div>
     </section>
 
@@ -897,5 +913,18 @@
 
     <!-- JavaScript -->
     <script src="./js/main.js"></script>
+
+    <!-- Modal Functions -->
+    <script>
+      function openModal(modalId) {
+        document.getElementById(modalId).classList.remove("hidden");
+        document.getElementById(modalId).classList.add("flex");
+      }
+
+      function closeModal(modalId) {
+        document.getElementById(modalId).classList.add("hidden");
+        document.getElementById(modalId).classList.remove("flex");
+      }
+    </script>
   </body>
 </html>
